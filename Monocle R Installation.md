@@ -8,8 +8,12 @@ install devtools
 
 
 install irlba -
-library(devtools) (possible Rtools)
+library(devtools) (possible Rtools):
+first: conda install r-git2r
+in R:
+install.packages("devtools")
 
 For R3.5.1:
 assignInNamespace("version_info", c(devtools:::version_info, list("3.5" = list(version_min = "3.3.0", version_max = "99.99.99", path = "bin"))), "devtools")
+
 install_github("bwlewis/irlba")
