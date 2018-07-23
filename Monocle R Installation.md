@@ -1,4 +1,4 @@
-#<b>Monocle Installation:</b>
+# Monocle Installation
 
 install miniconda
 create new environment and install R
