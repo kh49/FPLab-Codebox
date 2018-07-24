@@ -20,9 +20,13 @@ install.packages("devtools")
 For R3.5.1:
 assignInNamespace("version_info", c(devtools:::version_info, list("3.5" = list(version_min = "3.3.0", version_max = "99.99.99", path = "bin"))), "devtools")
 
+install Rtools
+
+library(devtools)
+
 install_github("bwlewis/irlba")
 
-or install_git(https://github.com/bwlewis/irlba.git)
+or install_git("https://github.com/bwlewis/irlba.git")
 
 
 download fasta files:
