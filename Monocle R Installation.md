@@ -22,7 +22,7 @@ assignInNamespace("version_info", c(devtools:::version_info, list("3.5" = list(v
 
 install_github("bwlewis/irlba")
 
-or install_git(url to .git)
+or install_git(https://github.com/bwlewis/irlba.git)
 
 
 download fasta files:
