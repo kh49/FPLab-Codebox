@@ -4,7 +4,7 @@ install miniconda
 create new environment and install R
 install bioconductor
 install DESeq2
-install biobase
+install Biobase
 
 install monocle - may need to revert R version during installs
 
