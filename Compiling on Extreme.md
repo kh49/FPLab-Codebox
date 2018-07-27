@@ -15,3 +15,6 @@ for build breaking warnings that aren't actually errors: http://forums.codeblock
 https://stackoverflow.com/questions/7543978/how-to-pass-g3-flag-to-gcc-via-make-command-line
 
 export CFLAGS="-W no-deprecated-declarations"
+
+
+install autoconf on conda if needed
