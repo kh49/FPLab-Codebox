@@ -14,4 +14,4 @@ cmake -DBOOST_ROOT=/export/share/apps/boost-1.65.0 -DCMAKE_C_COMPILER=/export/sh
 for build breaking warnings that aren't actually errors: http://forums.codeblocks.org/index.php?topic=19202.0
 https://stackoverflow.com/questions/7543978/how-to-pass-g3-flag-to-gcc-via-make-command-line
 
-export CFLAGS="-Wno-deprecated-declarations"
+export CFLAGS="-W no-deprecated-declarations"
