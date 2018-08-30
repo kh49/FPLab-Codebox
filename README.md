@@ -8,3 +8,7 @@ Remove version numbers from gene and transcript IDs prior to indexing
 gtfToGenePred -genePredExt -geneNameAsName2 -ignoreGroupsWithoutExons gtf genepred 
 
 awk -v OFS='\t' '{print $1,$12,$2,$3,$4,$5,$6,$7,$8,$9,$10}'
+
+#lab serve folder config:
+folders = \\PFServer\folder
+username = PFServer\username
