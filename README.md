@@ -1,6 +1,10 @@
 # FPLab-Codebox
 #coding notes:
 
+##R building config:
+./configure  --enable-R-shlib --with-cairo=yes --enable-memory-profiling
+
+
 ##gencode transcript fasta processing for salmon:
 Remove version numbers from gene and transcript IDs prior to indexing
 `sed 's/\.[0-9][0-9]*//g' <transcriptsscrub.fa >scrubbed.fa
