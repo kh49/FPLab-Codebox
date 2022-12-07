@@ -7,12 +7,14 @@
 build, then symlink openblas if desired:
 Another option to change the BLAS in use is to symlink a single dynamic BLAS library to R_HOME/lib/libRblas.so. For example, just
 
-'''mv R_HOME/lib/libRblas.so R_HOME/lib/libRblas.so.keep
-ln -s /usr/lib64/libopenblasp.so.0 R_HOME/lib/libRblas.so'''
+```mv R_HOME/lib/libRblas.so R_HOME/lib/libRblas.so.keep
+ln -s /usr/lib64/libopenblasp.so.0 R_HOME/lib/libRblas.so
+```
 
 symlinks:
-'''libRlapack.so -> /usr/lib/x86_64-linux-gnu/openblas-serial/liblapack.so.3
-libRblas.so -> /usr/lib/x86_64-linux-gnu/openblas-serial/libblas.so.3'''
+```libRlapack.so -> /usr/lib/x86_64-linux-gnu/openblas-serial/liblapack.so.3
+libRblas.so -> /usr/lib/x86_64-linux-gnu/openblas-serial/libblas.so.3
+```
 
 
 
