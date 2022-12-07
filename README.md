@@ -10,6 +10,11 @@ Another option to change the BLAS in use is to symlink a single dynamic BLAS lib
 mv R_HOME/lib/libRblas.so R_HOME/lib/libRblas.so.keep
 ln -s /usr/lib64/libopenblasp.so.0 R_HOME/lib/libRblas.so
 
+symlinks:
+libRlapack.so -> /usr/lib/x86_64-linux-gnu/openblas-serial/liblapack.so.3
+libRblas.so -> /usr/lib/x86_64-linux-gnu/openblas-serial/libblas.so.3
+
+
 
 ##gencode transcript fasta processing for salmon:
 Remove version numbers from gene and transcript IDs prior to indexing
