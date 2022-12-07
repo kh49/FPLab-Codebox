@@ -4,6 +4,12 @@
 ##R building config:
 ./configure  --enable-R-shlib --with-cairo=yes --enable-memory-profiling
 
+build, then symlink openblas if desired:
+Another option to change the BLAS in use is to symlink a single dynamic BLAS library to R_HOME/lib/libRblas.so. For example, just
+
+mv R_HOME/lib/libRblas.so R_HOME/lib/libRblas.so.keep
+ln -s /usr/lib64/libopenblasp.so.0 R_HOME/lib/libRblas.so
+
 
 ##gencode transcript fasta processing for salmon:
 Remove version numbers from gene and transcript IDs prior to indexing
